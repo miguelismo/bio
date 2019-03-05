@@ -18,12 +18,12 @@ body {
   margin-right: auto;
 }
 .contenido {
-  color: #fff;
-  padding: 5px;
-    margin: 10px;
-    border-radius: 5px;
+      color: #fff;
+    padding: 2%;
+    /* margin: 10px; */
+    border-radius: 0px;
     /* flex: 1 0 21%; */
-    width: 8%;
+    /* width: 90%; */
     /* height: 10vh; */
     font-size: 1em;
     text-align: center;
