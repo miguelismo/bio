@@ -27,11 +27,18 @@
 $( document ).ready(function() {
   
   $(".contenido").css("opacity","1");
-  $(".contenido").css("font-size","1em");
   
   $(".contenido").click(function() {
     $(this).addClass("activo");
     $(this).html("<div class='cerrar'>Cerrar</div>");
+  });
+  
+  $(".contenido").mouseover(function() {
+    $(this).css("font-size","1em");
+  });
+  
+  $(".contenido").mouseout(function() {
+    $(this).css("font-size","0em");
   });
   
   $(".cerrar").click(function() {
