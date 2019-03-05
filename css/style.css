@@ -1,31 +1,28 @@
 body {
-	margin: 0;
+  margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
 .super_contenedor {
   background-color: #070707;
 }
 .contenedor {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
   align-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-	height: 100vh;
+  height: 100vh;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 .contenido {
-	color: #fff;
+  color: #fff;
   padding: 5px;
-  width: 200px;
-  height: 150px;
   margin: 10px;
   border-radius: 5px;
   flex: 1 0 21%;
-  
   line-height: 150px;
   font-size: 2em;
   text-align: center;
@@ -50,6 +47,11 @@ body {
 .cont8 { background: #8d7bb2 }
 
 .activo {
+  flex: 100%
+}
+
+/*
+.activo {
   position: absolute;
   z-index: 9;
   top: 0;
@@ -59,3 +61,4 @@ body {
   width: 97%;
   height: 96vh;
 }
+*/
