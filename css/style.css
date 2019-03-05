@@ -20,6 +20,19 @@ body {
 .contenido {
   color: #fff;
   padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    /* flex: 1 0 21%; */
+    width: 8%;
+    /* height: 10vh; */
+    font-size: 1em;
+    text-align: center;
+    opacity: 0;
+}
+/*
+.contenido {
+  color: #fff;
+  padding: 5px;
   margin: 10px;
   border-radius: 5px;
   flex: 1 0 21%;
@@ -28,6 +41,7 @@ body {
   text-align: center;
   opacity: 0;
 }
+*/
 .cont1 { -webkit-transition: all 200ms; transition:  all 200ms }
 .cont2 { -webkit-transition: all 400ms; transition:  all 200ms }
 .cont3 { -webkit-transition: all 600ms; transition:  all 600ms }
