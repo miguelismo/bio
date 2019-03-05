@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.super_contenedor {
+  background-color: #070707;
+}
+.contenedor {
+	display: flex;
+	justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+	height: 100vh;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contenido {
+	color: #fff;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 5px;
+  flex: 1 0 21%;
+  
+  line-height: 150px;
+  font-size: 2em;
+  text-align: center;
+  opacity: 0;
+}
+.cont1 { -webkit-transition: all 200ms; transition:  all 200ms }
+.cont2 { -webkit-transition: all 400ms; transition:  all 200ms }
+.cont3 { -webkit-transition: all 600ms; transition:  all 600ms }
+.cont4 { -webkit-transition: all 800ms; transition:  all 800ms }
+.cont5 { -webkit-transition: all 1000ms; transition:  all 1000ms }
+.cont6 { -webkit-transition: all 1200ms; transition:  all 1200ms }
+.cont7 { -webkit-transition: all 1400ms; transition:  all 1400ms }
+.cont8 { -webkit-transition: all 1600ms; transition:  all 1600ms }
+
+.cont1 { background: #cb79a9 }
+.cont2 { background: #fb4368 }
+.cont3 { background: #fc9427 }
+.cont4 { background: #fae300 }
+.cont5 { background: #b2da29 }
+.cont6 { background: #16c77c }
+.cont7 { background: #3dacde }
+.cont8 { background: #8d7bb2 }
+
+.activo {
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 97%;
+  height: 96vh;
+}

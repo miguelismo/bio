@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Nicholas Price | Works</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="super_contenedor">
+  <div class="contenedor">
+    <div class="contenido cont1">Fotos</div>
+    <div class="contenido cont2">Videos</div>
+    <div class="contenido cont3">Bio</div>
+    <div class="contenido cont4">3D</div>
+    <div class="contenido cont5">2D</div>
+    <div class="contenido cont6">Ilustraci&oacute;n</div>
+    <div class="contenido cont7">Color</div>
+    <div class="contenido cont8">Forma</div>
+  </div>
+</div>
+  
+<script src="js/jquery.js"></script>
+<script>
+$( document ).ready(function() {
+  $(".contenido").css("opacity","1");
+  
+  $(".cont1").click(function() {
+    $(this).addClass("activo");
+    $(this).html("<div class='cerrar'>Cerrar</div>");
+  });
+  
+  $(".cerrar").click(function() {
+    $(this).parent().removeClass("activo");
+  });
+  
+});
+</script>
+</body>
+</html>
