@@ -30,6 +30,7 @@ $( document ).ready(function() {
   
   $(".contenido").click(function() {
     $(this).addClass("activo");
+    $(".contenido").not$(this).removeClass("activo");
     $(this).html("<div class='cerrar'>Cerrar</div>");
   });
   
