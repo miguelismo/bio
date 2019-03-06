@@ -13,7 +13,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   height: 100vh;
-  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -65,7 +64,7 @@ body {
 .cont8 { background: #8d7bb2 }
 
 .activo {
-    flex: 3;
+    flex: 6;
 }
 
 /*
