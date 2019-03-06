@@ -23,6 +23,7 @@ body {
     /* margin: 10px; */
     border-radius: 0px;
   flex: 1; 
+  height: 100vh;
     /* flex: 1 0 21%; */
     /* width: 90%; */
     /* height: 10vh; */
@@ -64,8 +65,7 @@ body {
 .cont8 { background: #8d7bb2 }
 
 .activo {
-    width: 100%;
-    height: 80vh;
+    flex: 3;
 }
 
 /*
