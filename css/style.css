@@ -18,10 +18,11 @@ body {
   margin-right: auto;
 }
 .contenido {
-      color: #fff;
+    color: #fff;
     padding: 2%;
     /* margin: 10px; */
     border-radius: 0px;
+  flex: 1; 
     /* flex: 1 0 21%; */
     /* width: 90%; */
     /* height: 10vh; */
