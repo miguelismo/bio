@@ -29,7 +29,6 @@ body {
     font-size: 0em;
     text-align: center;
     opacity: 0;
-  -webkit-transition: all 600ms; transition:  all 600ms 
 }
 /*
 .contenido {
@@ -44,7 +43,7 @@ body {
   opacity: 0;
 }
 */
-/*
+
 .cont1 { -webkit-transition: all 200ms; transition:  all 200ms }
 .cont2 { -webkit-transition: all 400ms; transition:  all 200ms }
 .cont3 { -webkit-transition: all 600ms; transition:  all 600ms }
@@ -53,15 +52,15 @@ body {
 .cont6 { -webkit-transition: all 1200ms; transition:  all 1200ms }
 .cont7 { -webkit-transition: all 1400ms; transition:  all 1400ms }
 .cont8 { -webkit-transition: all 1600ms; transition:  all 1600ms }
-*/
-.cont1 { background: #cb79a9 }
-.cont2 { background: #fb4368 }
-.cont3 { background: #fc9427 }
-.cont4 { background: #fae300 }
-.cont5 { background: #b2da29 }
-.cont6 { background: #16c77c }
-.cont7 { background: #3dacde }
-.cont8 { background: #8d7bb2 }
+
+.cont1 { background: #fb4368 }
+.cont2 { background: #fc9427 }
+.cont3 { background: #fae300 }
+.cont4 { background: #b2da29 }
+.cont5 { background: #16c77c }
+.cont6 { background: #3dacde }
+.cont7 { background: #8d7bb2 }
+.cont8 { background: #cb79a9 }
 
 .activo {
     flex: 6;
